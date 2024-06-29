@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ping Pong Game</title>
+</head>
+<body>
+    <main>
+        <section id="img">
+            <img src="https://weezevent.com/wp-content/uploads/2023/04/03144053/organizar-torneo-ping-pong.jpg" alt="">
+            <h3>Ping Pong Game</h3>
+        </section>
+        <section id="score-c">
+            <h1>
+                <span id="sc-1">0</span>
+                to
+                <span id="sc-2">0</span>
+            </h1>
+            <h4 id="winner"></h4>
+            <h5>SCORE TO WIN: 3</h5>
+            <p>
+                Click fast the button bro.
+            </p>
+            <label for="points">Points</label>
+            <select name="points" id="points">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </section>
+        <section id="buttons">
+            <button id="btn-1">+1 Player 1</button>
+            <button id="btn-2">+1 Player 2</button>
+            <button id="reset">RESET SCORE</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /*background-image: url('https://cdn.pixabay.com/photo/2017/02/12/17/35/sunbeam-2060662_640.jpg');
+    background-position: center;
+    background-size: cover;*/
+    background-color: rgb(235, 235, 235);
+}   
+main{
+    max-width: 500px;
+    margin: 2em auto;
+    border-radius: 10px;
+    padding: 2em 1em;
+    text-align: center;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.068);
+    background-color: white;
+
+    #winner{
+        font-size: 30px;
+        color: yellow;
+        text-shadow: 0 1px 2px black;
+    }
+    img{
+        width: 100%;
+        border-radius: 2px;
+    }
+    #buttons{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2em;
+        gap: 1px;
+        
+        button{
+            flex: 50%;
+            padding: 1em;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+        }
+        #btn-1{
+            background-color: rgb(0, 68, 255);
+            color: white;
+
+        }
+        #btn-1:disabled{
+            background-color: rgba(0, 0, 0, 0.253);
+        }
+        #btn-2{
+            background-color: rgb(182, 0, 0);
+            color: white;
+        }
+        #btn-2:disabled{
+            background-color: rgba(59, 59, 59, 0.253);
+        }
+        #reset{
+            background-color: black;
+            color: white;
+        }
+    }
+}
